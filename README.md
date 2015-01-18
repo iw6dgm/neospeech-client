@@ -9,12 +9,14 @@ The application connects to NeoSpeech https://tts.neospeech.com/rest_1_1.php RES
 Usage
 -----
 
-- Configure application.properties with your credentials (just one)
-- Compile and run the application (using Maven)
+- Configure application.properties with your credentials (just ones)
+- Compile and run the application
 - Connect to http://localhost:8080/simple
 - Enter your text
 - Choose the voice
 - Submit
+
+You'll see the NeoSpeech response.
 
 References
 ----------
