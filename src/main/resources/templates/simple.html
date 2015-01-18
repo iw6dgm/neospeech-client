@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="form-group" th:if="${error}">
+        <p style="color: #e80c4d; font-weight: bold;" th:text="${error}"></p>
+    </div>
+    <div class="form-group" th:if="${result}">
+        <p th:text="${result}"></p>
+    </div>
+    <form class="form-signin" role="form"  th:action="@{/simple}" method="POST">
+        <div class="form-group">
+            <label for="voice">Voice</label>
+            <select class="form-control" id="voice" name="voice">
+                <option value="TTS_PAUL_DB">Paul</option>
+                <option value="TTS_KATE_DB">Kate</option>
+                <option value="TTS_JULIE_DB">Julie</option>
+                <option value="TTS_NEOBRIDGET_DB" selected="selected">Bridget</option>
+                <option value="TTS_NEOVIOLETTA_DB">Violetta</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="text">Text (max. 100 words)</label>
+            <textarea class="form-control" id="text" name="text">The quick brown fox jumps over the lazy dog.</textarea>
+        </div>
+        <button type="submit" class="btn btn-lg btn-primary btn-block">Submit</button>
+    </form>
+</div>
+</body>
+</html>
