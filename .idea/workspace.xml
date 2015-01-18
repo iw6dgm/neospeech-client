@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f0327db-6e88-4575-b1a2-3fe12cd0724e" name="Default" comment="" />
+    <list default="true" id="0f0327db-6e88-4575-b1a2-3fe12cd0724e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="neospeech-client.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26024097" vertical-offset="0" max-vertical-offset="415">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
               <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38196287" vertical-offset="54" max-vertical-offset="486">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -115,39 +128,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/deepnet/joshua/dto/response/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2322" max-vertical-offset="2736">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#4354#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2130#2131#0" expanded="false" />
-                <element signature="e#2163#2164#0" expanded="false" />
-                <element signature="e#2374#2375#0" expanded="false" />
-                <element signature="e#2413#2414#0" expanded="false" />
-                <element signature="e#2612#2613#0" expanded="false" />
-                <element signature="e#2647#2648#0" expanded="false" />
-                <element signature="e#2860#2861#0" expanded="false" />
-                <element signature="e#2901#2902#0" expanded="false" />
-                <element signature="e#3110#3111#0" expanded="false" />
-                <element signature="e#3149#3150#0" expanded="false" />
-                <element signature="e#3372#3373#0" expanded="false" />
-                <element signature="e#3417#3418#0" expanded="false" />
-                <element signature="e#3604#3605#0" expanded="false" />
-                <element signature="e#3633#3634#0" expanded="false" />
-                <element signature="e#3834#3835#0" expanded="false" />
-                <element signature="e#3869#3870#0" expanded="false" />
-                <element signature="e#4066#4067#0" expanded="false" />
-                <element signature="e#4099#4100#0" expanded="false" />
-                <element signature="e#4310#4311#0" expanded="false" />
-                <element signature="e#4349#4350#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/deepnet/joshua/config/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -182,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/pages/error.html" />
         <option value="$PROJECT_DIR$/src/main/java/net/deepnet/joshua/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -884,6 +865,13 @@
       <option name="number" value="Default" />
       <updated>1421518258920</updated>
     </task>
+    <task id="LOCAL-00001" summary="README">
+      <created>1421603703652</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1421603703652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -928,9 +916,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="README" />
+    <option name="LAST_COMMIT_MESSAGE" value="README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1189,14 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/io/spring/platform/platform-bom/1.1.1.RELEASE/platform-bom-1.1.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7605" max-vertical-offset="26712">
-          <caret line="357" column="38" selection-start-line="357" selection-start-column="36" selection-end-line="357" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.2.1.RELEASE/spring-boot-autoconfigure-1.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36267605" vertical-offset="77" max-vertical-offset="3168">
@@ -1231,16 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/deepnet/joshua/controller/ConvertSimpleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="1008">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/deepnet/joshua/config/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1296">
@@ -1253,8 +1227,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26024097" vertical-offset="0" max-vertical-offset="415">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/deepnet/joshua/controller/ConvertSimpleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="1008">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/spring/platform/platform-bom/1.1.1.RELEASE/platform-bom-1.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7605" max-vertical-offset="26712">
+          <caret line="357" column="38" selection-start-line="357" selection-start-column="36" selection-end-line="357" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38196287" vertical-offset="54" max-vertical-offset="486">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
           <folding />
         </state>
       </provider>
