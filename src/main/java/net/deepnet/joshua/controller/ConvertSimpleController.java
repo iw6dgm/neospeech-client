@@ -44,7 +44,6 @@ public class ConvertSimpleController {
         }
         modelAndView.setViewName(SIMPLE_VIEW);
         return modelAndView;
-
     }
 
 }
